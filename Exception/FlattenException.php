@@ -210,7 +210,7 @@ class FlattenException
         return $this;
     }
 
-    public function getCode(): int
+    public function getCode()
     {
         return $this->code;
     }
